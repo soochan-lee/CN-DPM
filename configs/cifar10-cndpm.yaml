@@ -1,0 +1,114 @@
+###########
+# Dataset #
+###########
+
+data_root: './data'
+batch_size: 10
+num_workers: 16
+sleep_batch_size: 50
+sleep_num_workers: 16
+eval_batch_size: 256
+eval_num_workers: 16
+
+label_offset:
+  cifar10: 0
+
+
+#########
+# Model #
+#########
+
+x_c: 3
+x_h: 32
+x_w: 32
+y_c: 10
+
+device: 'cuda'
+
+model_name: 'ndpm_model'
+g: 'cnn_sharing_vae'
+d: 'resnet_sharing_classifier'
+disable_d: False
+vae_nf_base: 32
+vae_nf_ext: 4
+z_dim: 64
+cls_nf_base: 20
+cls_nf_ext: 4
+num_blocks: [1, 1, 1, 1]
+norm_layer: InstanceNorm2d
+z_samples: 16
+
+recon_loss: 'gaussian'
+x_log_var_param: 0
+learn_x_log_var: false
+
+classifier_chill: 0.01
+
+
+#########
+# DPMoE #
+#########
+
+send_to_stm_always: False
+log_alpha: -450
+stm_capacity: 1000
+stm_erase_period: 0
+sleep_step_g: 4000
+sleep_step_d: 1000
+sleep_summary_step: 500
+sleep_val_size: 0
+
+
+#########
+# Train #
+#########
+
+implicit_lr_decay: False
+weight_decay: 0.00001
+
+optimizer_g:
+  type: Adam
+  options:
+    lr: 0.0002
+
+lr_scheduler_g:
+  type: MultiStepLR
+  options:
+    milestones: [1]
+    gamma: 0.1
+
+optimizer_d:
+  type: Adam
+  options:
+    lr: 0.005
+
+lr_scheduler_d:
+  type: MultiStepLR
+  options:
+    milestones: [1]
+    gamma: 0.1
+
+clip_grad:
+  type: value
+  options:
+    clip_value: 0.5
+
+
+########
+# Eval #
+########
+
+eval_d: True
+eval_g: False
+eval_t: False
+
+
+###########
+# Summary #
+###########
+
+summary_step: 250
+eval_step: 250
+ckpt_step: 1000000000
+summarize_samples: False
+

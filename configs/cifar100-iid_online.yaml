@@ -1,0 +1,76 @@
+
+###########
+# Dataset #
+###########
+
+data_root: './data'
+batch_size: 10
+num_workers: 16
+sleep_batch_size: 50
+sleep_num_workers: 4
+eval_batch_size: 256
+eval_num_workers: 4
+
+label_offset:
+  cifar100: 0
+
+#########
+# Model #
+#########
+
+x_c: 3
+x_h: 32
+x_w: 32
+y_c: 100
+
+device: 'cuda'
+
+model_name: 'singleton_model'
+g:
+d: 'resnet_classifier'
+disable_d: False
+cls_nf: 64
+classifier_chill: 1.0
+recon_loss: 'gaussian'
+
+#########
+# Train #
+#########
+
+weight_decay: 0.00001
+implicit_lr_decay: False
+
+optimizer_d:
+  type: SGD
+  options:
+    lr: 0.01
+    momentum: 0.9
+
+lr_scheduler_d:
+  type: MultiStepLR
+  options:
+    milestones: [1]
+    gamma: 1.0
+
+clip_grad:
+  type: value
+  options:
+    clip_value: 0.5
+
+
+########
+# Eval #
+########
+
+eval_d: True
+eval_g: False
+
+###########
+# Summary #
+###########
+
+summary_step: 250
+eval_step: 250
+ckpt_step: 1000000000
+summarize_samples: false
+

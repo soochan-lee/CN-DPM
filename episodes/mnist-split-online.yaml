@@ -1,0 +1,10 @@
+- subsets: [['mnist', 0], ['mnist', 1]]
+  epochs: 1
+- subsets: [['mnist', 2], ['mnist', 3]]
+  epochs: 1
+- subsets: [['mnist', 4], ['mnist', 5]]
+  epochs: 1
+- subsets: [['mnist', 6], ['mnist', 7]]
+  epochs: 1
+- subsets: [['mnist', 8], ['mnist', 9]]
+  epochs: 1

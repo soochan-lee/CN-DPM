@@ -1,0 +1,134 @@
+- subsets: [['mnist', 0], ['mnist', 1]]
+  samples: 6000
+  
+  
+- subsets: [['mnist', 0], ['mnist', 1], ['mnist', 0], ['mnist', 1],
+            ['mnist', 0], ['mnist', 1], ['mnist', 0], ['mnist', 1],
+            ['mnist', 0], ['mnist', 1], ['mnist', 0], ['mnist', 1],
+            ['mnist', 0], ['mnist', 1], ['mnist', 0], ['mnist', 1],
+            ['mnist', 0], ['mnist', 1], ['mnist', 2], ['mnist', 3]]
+  samples: 2400
+- subsets: [['mnist', 0], ['mnist', 1], ['mnist', 0], ['mnist', 1],
+            ['mnist', 0], ['mnist', 1], ['mnist', 0], ['mnist', 1],
+            ['mnist', 0], ['mnist', 1], ['mnist', 0], ['mnist', 1],
+            ['mnist', 0], ['mnist', 1], ['mnist', 2], ['mnist', 3],
+            ['mnist', 2], ['mnist', 3], ['mnist', 2], ['mnist', 3]]
+  samples: 2400
+- subsets: [['mnist', 0], ['mnist', 1], ['mnist', 0], ['mnist', 1],
+            ['mnist', 0], ['mnist', 1], ['mnist', 0], ['mnist', 1],
+            ['mnist', 0], ['mnist', 1], ['mnist', 2], ['mnist', 3],
+            ['mnist', 2], ['mnist', 3], ['mnist', 2], ['mnist', 3],
+            ['mnist', 2], ['mnist', 3], ['mnist', 2], ['mnist', 3]]
+  samples: 2400
+- subsets: [['mnist', 0], ['mnist', 1], ['mnist', 0], ['mnist', 1],
+            ['mnist', 0], ['mnist', 1], ['mnist', 2], ['mnist', 3],
+            ['mnist', 2], ['mnist', 3], ['mnist', 2], ['mnist', 3],
+            ['mnist', 2], ['mnist', 3], ['mnist', 2], ['mnist', 3],
+            ['mnist', 2], ['mnist', 3], ['mnist', 2], ['mnist', 3]]
+  samples: 2400
+- subsets: [['mnist', 0], ['mnist', 1], ['mnist', 2], ['mnist', 3],
+            ['mnist', 2], ['mnist', 3], ['mnist', 2], ['mnist', 3],
+            ['mnist', 2], ['mnist', 3], ['mnist', 2], ['mnist', 3],
+            ['mnist', 2], ['mnist', 3], ['mnist', 2], ['mnist', 3],
+            ['mnist', 2], ['mnist', 3], ['mnist', 2], ['mnist', 3]]
+  samples: 2400
+  
+  
+- subsets: [['mnist', 2], ['mnist', 3], ['mnist', 2], ['mnist', 3],
+            ['mnist', 2], ['mnist', 3], ['mnist', 2], ['mnist', 3],
+            ['mnist', 2], ['mnist', 3], ['mnist', 2], ['mnist', 3],
+            ['mnist', 2], ['mnist', 3], ['mnist', 2], ['mnist', 3],
+            ['mnist', 2], ['mnist', 3], ['mnist', 4], ['mnist', 5]]
+  samples: 2400
+- subsets: [['mnist', 2], ['mnist', 3], ['mnist', 2], ['mnist', 3],
+            ['mnist', 2], ['mnist', 3], ['mnist', 2], ['mnist', 3],
+            ['mnist', 2], ['mnist', 3], ['mnist', 2], ['mnist', 3],
+            ['mnist', 2], ['mnist', 3], ['mnist', 4], ['mnist', 5],
+            ['mnist', 4], ['mnist', 5], ['mnist', 4], ['mnist', 5]]
+  samples: 2400
+- subsets: [['mnist', 2], ['mnist', 3], ['mnist', 2], ['mnist', 3],
+            ['mnist', 2], ['mnist', 3], ['mnist', 2], ['mnist', 3],
+            ['mnist', 2], ['mnist', 3], ['mnist', 4], ['mnist', 5],
+            ['mnist', 4], ['mnist', 5], ['mnist', 4], ['mnist', 5],
+            ['mnist', 4], ['mnist', 5], ['mnist', 4], ['mnist', 5]]
+  samples: 2400
+- subsets: [['mnist', 2], ['mnist', 3], ['mnist', 2], ['mnist', 3],
+            ['mnist', 2], ['mnist', 3], ['mnist', 4], ['mnist', 5],
+            ['mnist', 4], ['mnist', 5], ['mnist', 4], ['mnist', 5],
+            ['mnist', 4], ['mnist', 5], ['mnist', 4], ['mnist', 5],
+            ['mnist', 4], ['mnist', 5], ['mnist', 4], ['mnist', 5]]
+  samples: 2400
+- subsets: [['mnist', 2], ['mnist', 3], ['mnist', 4], ['mnist', 5],
+            ['mnist', 4], ['mnist', 5], ['mnist', 4], ['mnist', 5],
+            ['mnist', 4], ['mnist', 5], ['mnist', 4], ['mnist', 5],
+            ['mnist', 4], ['mnist', 5], ['mnist', 4], ['mnist', 5],
+            ['mnist', 4], ['mnist', 5], ['mnist', 4], ['mnist', 5]]
+  samples: 2400
+  
+  
+- subsets: [['mnist', 4], ['mnist', 5], ['mnist', 4], ['mnist', 5],
+            ['mnist', 4], ['mnist', 5], ['mnist', 4], ['mnist', 5],
+            ['mnist', 4], ['mnist', 5], ['mnist', 4], ['mnist', 5],
+            ['mnist', 4], ['mnist', 5], ['mnist', 4], ['mnist', 5],
+            ['mnist', 4], ['mnist', 5], ['mnist', 6], ['mnist', 7]]
+  samples: 2400
+- subsets: [['mnist', 4], ['mnist', 5], ['mnist', 4], ['mnist', 5],
+            ['mnist', 4], ['mnist', 5], ['mnist', 4], ['mnist', 5],
+            ['mnist', 4], ['mnist', 5], ['mnist', 4], ['mnist', 5],
+            ['mnist', 4], ['mnist', 5], ['mnist', 6], ['mnist', 7],
+            ['mnist', 6], ['mnist', 7], ['mnist', 6], ['mnist', 7]]
+  samples: 2400
+- subsets: [['mnist', 4], ['mnist', 5], ['mnist', 4], ['mnist', 5],
+            ['mnist', 4], ['mnist', 5], ['mnist', 4], ['mnist', 5],
+            ['mnist', 4], ['mnist', 5], ['mnist', 6], ['mnist', 7],
+            ['mnist', 6], ['mnist', 7], ['mnist', 6], ['mnist', 7],
+            ['mnist', 6], ['mnist', 7], ['mnist', 6], ['mnist', 7]]
+  samples: 2400
+- subsets: [['mnist', 4], ['mnist', 5], ['mnist', 4], ['mnist', 5],
+            ['mnist', 4], ['mnist', 5], ['mnist', 6], ['mnist', 7],
+            ['mnist', 6], ['mnist', 7], ['mnist', 6], ['mnist', 7],
+            ['mnist', 6], ['mnist', 7], ['mnist', 6], ['mnist', 7],
+            ['mnist', 6], ['mnist', 7], ['mnist', 6], ['mnist', 7]]
+  samples: 2400
+- subsets: [['mnist', 4], ['mnist', 5], ['mnist', 6], ['mnist', 7],
+            ['mnist', 6], ['mnist', 7], ['mnist', 6], ['mnist', 7],
+            ['mnist', 6], ['mnist', 7], ['mnist', 6], ['mnist', 7],
+            ['mnist', 6], ['mnist', 7], ['mnist', 6], ['mnist', 7],
+            ['mnist', 6], ['mnist', 7], ['mnist', 6], ['mnist', 7]]
+  samples: 2400
+  
+  
+- subsets: [['mnist', 6], ['mnist', 7], ['mnist', 6], ['mnist', 7],
+            ['mnist', 6], ['mnist', 7], ['mnist', 6], ['mnist', 7],
+            ['mnist', 6], ['mnist', 7], ['mnist', 6], ['mnist', 7],
+            ['mnist', 6], ['mnist', 7], ['mnist', 6], ['mnist', 7],
+            ['mnist', 6], ['mnist', 7], ['mnist', 8], ['mnist', 9]]
+  samples: 2400
+- subsets: [['mnist', 6], ['mnist', 7], ['mnist', 6], ['mnist', 7],
+            ['mnist', 6], ['mnist', 7], ['mnist', 6], ['mnist', 7],
+            ['mnist', 6], ['mnist', 7], ['mnist', 6], ['mnist', 7],
+            ['mnist', 6], ['mnist', 7], ['mnist', 8], ['mnist', 9],
+            ['mnist', 8], ['mnist', 9], ['mnist', 8], ['mnist', 9]]
+  samples: 2400
+- subsets: [['mnist', 6], ['mnist', 7], ['mnist', 6], ['mnist', 7],
+            ['mnist', 6], ['mnist', 7], ['mnist', 6], ['mnist', 7],
+            ['mnist', 6], ['mnist', 7], ['mnist', 8], ['mnist', 9],
+            ['mnist', 8], ['mnist', 9], ['mnist', 8], ['mnist', 9],
+            ['mnist', 8], ['mnist', 9], ['mnist', 8], ['mnist', 9]]
+  samples: 2400
+- subsets: [['mnist', 6], ['mnist', 7], ['mnist', 6], ['mnist', 7],
+            ['mnist', 6], ['mnist', 7], ['mnist', 8], ['mnist', 9],
+            ['mnist', 8], ['mnist', 9], ['mnist', 8], ['mnist', 9],
+            ['mnist', 8], ['mnist', 9], ['mnist', 8], ['mnist', 9],
+            ['mnist', 8], ['mnist', 9], ['mnist', 8], ['mnist', 9]]
+  samples: 2400
+- subsets: [['mnist', 6], ['mnist', 7], ['mnist', 8], ['mnist', 9],
+            ['mnist', 8], ['mnist', 9], ['mnist', 8], ['mnist', 9],
+            ['mnist', 8], ['mnist', 9], ['mnist', 8], ['mnist', 9],
+            ['mnist', 8], ['mnist', 9], ['mnist', 8], ['mnist', 9],
+            ['mnist', 8], ['mnist', 9], ['mnist', 8], ['mnist', 9]]
+  samples: 2400
+
+
+- subsets: [['mnist', 8], ['mnist', 9]]
+  samples: 6000

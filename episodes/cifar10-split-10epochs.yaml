@@ -1,0 +1,10 @@
+- subsets: [['cifar10', 0], ['cifar10', 1]]
+  epochs: 10
+- subsets: [['cifar10', 2], ['cifar10', 3]]
+  epochs: 10
+- subsets: [['cifar10', 4], ['cifar10', 5]]
+  epochs: 10
+- subsets: [['cifar10', 6], ['cifar10', 7]]
+  epochs: 10
+- subsets: [['cifar10', 8], ['cifar10', 9]]
+  epochs: 10

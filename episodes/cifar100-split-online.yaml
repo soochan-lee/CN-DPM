@@ -1,0 +1,79 @@
+# aquatic mammals
+# beaver, dolphin, otter, seal, whale
+- subsets: [['cifar100', 4], ['cifar100', 30], ['cifar100', 55], ['cifar100', 72], ['cifar100', 95]]
+
+# fish
+# aquarium fish, flatfish, ray, shark, trout
+- subsets: [['cifar100', 1], ['cifar100', 32], ['cifar100', 67], ['cifar100', 73], ['cifar100', 91]]
+
+# flowers
+# orchids, poppies, roses, sunflowers, tulips
+- subsets: [['cifar100', 54], ['cifar100', 62], ['cifar100', 70], ['cifar100', 82], ['cifar100', 92]]
+
+# food containers
+# bottles, bowls, cans, cups, plates
+- subsets: [['cifar100', 9], ['cifar100', 10], ['cifar100', 16], ['cifar100', 28], ['cifar100', 61]]
+
+# fruit and vegetables
+# apples, mushrooms, oranges, pears, sweet peppers
+- subsets: [['cifar100', 0], ['cifar100', 51], ['cifar100', 53], ['cifar100', 57], ['cifar100', 83]]
+
+# household electrical devices
+# clock, keyboard, lamp, telephone, television
+- subsets: [['cifar100', 22], ['cifar100', 39], ['cifar100', 40], ['cifar100', 86], ['cifar100', 87]]
+
+# household furniture
+# bed, chair, couch, table, wardrobe
+- subsets: [['cifar100', 5], ['cifar100', 20], ['cifar100', 25], ['cifar100', 84], ['cifar100', 94]]
+
+# insects
+# bee, beetle, butterfly, caterpillar, cockroach
+- subsets: [['cifar100', 6], ['cifar100', 7], ['cifar100', 14], ['cifar100', 18], ['cifar100', 24]]
+
+# large carnivores
+# bear, leopard, lion, tiger, wolf
+- subsets: [['cifar100', 3], ['cifar100', 42], ['cifar100', 43], ['cifar100', 88], ['cifar100', 97]]
+
+# large man-made outdoor things
+# bridge, castle, house, road, skyscraper
+- subsets: [['cifar100', 12], ['cifar100', 17], ['cifar100', 37], ['cifar100', 68], ['cifar100', 76]]
+
+# large natural outdoor scenes
+# cloud, forest, mountain, plain, sea
+- subsets: [['cifar100', 23], ['cifar100', 33], ['cifar100', 49], ['cifar100', 60], ['cifar100', 71]]
+
+# large omnivores and herbivores
+# camel, cattle, chimpanzee, elephant, kangaroo
+- subsets: [['cifar100', 15], ['cifar100', 19], ['cifar100', 21], ['cifar100', 31], ['cifar100', 38]]
+
+# medium-sized mammals
+# fox, porcupine, possum, raccoon, skunk
+- subsets: [['cifar100', 34], ['cifar100', 63], ['cifar100', 64], ['cifar100', 66], ['cifar100', 75]]
+
+# non-insect invertebrates
+# crab, lobster, snail, spider, worm
+- subsets: [['cifar100', 26], ['cifar100', 45], ['cifar100', 77], ['cifar100', 79], ['cifar100', 99]]
+
+# people
+# baby, boy, girl, man, woman
+- subsets: [['cifar100', 2], ['cifar100', 11], ['cifar100', 35], ['cifar100', 46], ['cifar100', 98]]
+
+# reptiles
+# crocodile, dinosaur, lizard, snake, turtle
+- subsets: [['cifar100', 27], ['cifar100', 29], ['cifar100', 44], ['cifar100', 78], ['cifar100', 93]]
+
+# small mammals
+# hamster, mouse, rabbit, shrew, squirrel
+- subsets: [['cifar100', 36], ['cifar100', 50], ['cifar100', 65], ['cifar100', 74], ['cifar100', 80]]
+
+# trees
+# maple, oak, palm, pine, willow
+- subsets: [['cifar100', 47], ['cifar100', 52], ['cifar100', 56], ['cifar100', 59], ['cifar100', 96]]
+
+# vehicles 1
+# bicycle, bus, motorcycle, pickup truck, train
+- subsets: [['cifar100', 8], ['cifar100', 13], ['cifar100', 48], ['cifar100', 58], ['cifar100', 90]]
+
+# vehicles 2
+# lawn-mower, rocket, streetcar, tank, tractor
+- subsets: [['cifar100', 41], ['cifar100', 69], ['cifar100', 81], ['cifar100', 85], ['cifar100', 89]]

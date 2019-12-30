@@ -1,0 +1,10 @@
+- subsets: [['cifar10', 0], ['cifar10', 1]]
+  samples: 2000
+- subsets: [['cifar10', 2], ['cifar10', 3]]
+  samples: 2000
+- subsets: [['cifar10', 4], ['cifar10', 5]]
+  samples: 2000
+- subsets: [['cifar10', 6], ['cifar10', 7]]
+  samples: 2000
+- subsets: [['cifar10', 8], ['cifar10', 9]]
+  samples: 2000

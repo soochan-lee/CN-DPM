@@ -1,0 +1,11 @@
+ipdb
+jupyterlab
+matplotlib
+numpy
+PyYAML
+tensorboard==1.13.1
+tensorboardX==1.6
+tensorflow==1.13.1
+pytorch==1.0.1
+torchvision==0.2.2
+tqdm

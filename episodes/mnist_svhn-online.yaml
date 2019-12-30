@@ -1,0 +1,10 @@
+- subsets: [['mnist', 0], ['mnist', 1],
+            ['mnist', 2], ['mnist', 3],
+            ['mnist', 4], ['mnist', 5],
+            ['mnist', 6], ['mnist', 7],
+            ['mnist', 8], ['mnist', 9]]
+- subsets: [['svhn', 0], ['svhn', 1],
+            ['svhn', 2], ['svhn', 3],
+            ['svhn', 4], ['svhn', 5],
+            ['svhn', 6], ['svhn', 7],
+            ['svhn', 8], ['svhn', 9]]

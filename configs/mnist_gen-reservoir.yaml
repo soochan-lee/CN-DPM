@@ -1,0 +1,79 @@
+###########
+# Dataset #
+###########
+
+data_root: './data'
+batch_size: 10
+num_workers: 16
+sleep_batch_size: 50
+sleep_num_workers: 4
+eval_batch_size: 256
+eval_num_workers: 4
+
+label_offset:
+  mnist: 0
+
+#########
+# Model #
+#########
+
+x_c: 1
+x_h: 28
+x_w: 28
+y_c: 10
+
+device: 'cuda'
+
+model_name: 'reservoir_model'
+reservoir_size: 1000
+g: 'mlp_vae'
+d:
+disable_d: True
+vae_nf: 400
+z_dim: 32
+z_samples: 1
+classifier_chill: 1.0
+recon_loss: 'bernoulli'
+
+
+#########
+# Train #
+#########
+
+weight_decay: 0.00001
+implicit_lr_decay: False
+
+optimizer_g:
+  type: Adam
+  options:
+    lr: 0.0004
+
+lr_scheduler_g:
+  type: MultiStepLR
+  options:
+    milestones: [1]
+    gamma: 1.0
+
+clip_grad:
+  type: value
+  options:
+    clip_value: 0.5
+
+
+########
+# Eval #
+########
+
+eval_d: False
+eval_g: True
+
+###########
+# Summary #
+###########
+
+summary_step: 250
+eval_step: 250
+ckpt_step: 1000000000
+summarize_samples: True
+sample_grid: [10, 10]
+
