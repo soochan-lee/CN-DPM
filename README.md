@@ -8,6 +8,7 @@ Official PyTorch implementation of ICLR 2020 paper: *A Neural Dirichlet Process 
 
 ## Experimental Results
 
+### Summarization of the main experiments 
 <table style="text-align: right">
     <thead>
         <tr>
@@ -53,7 +54,7 @@ Official PyTorch implementation of ICLR 2020 paper: *A Neural Dirichlet Process 
             <td>10.01</td>
         </tr>
         <tr>
-            <td>CN-DPM</td>
+            <td><b>CN-DPM</b></td>
             <td><b>93.23</b></td>
             <td><b>0.2110</b></td>
             <td><b>94.46</b></td>
@@ -96,7 +97,7 @@ optional arguments:
 
 
 ## Composing Continual Learning Episodes
-We provide quick and easy solution to compose a continual learning scenario.
+We provide a quick and easy solution to compose continual learning scenarios.
 You can configure a scenario by writing a YAML file.
 Here is an example of Split-CIFAR10 where each stage is repeated for 10 epochs: 
 ```yaml
