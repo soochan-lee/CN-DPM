@@ -3,6 +3,7 @@ Official PyTorch implementation of ICLR 2020 paper: *A Neural Dirichlet Process 
 
 [**Paper**](https://openreview.net/forum?id=SJxSOJStPr)
 
+![CN-DPM](./images/cndpm.png)
 
 ## System Requirements
 - Python >= 3.6.1
