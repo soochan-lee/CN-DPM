@@ -5,6 +5,71 @@ Official PyTorch implementation of ICLR 2020 paper: *A Neural Dirichlet Process 
 
 ![CN-DPM](./images/cndpm.png)
 
+
+## Experimental Results
+
+<table style="text-align: right">
+    <thead>
+        <tr>
+            <td>Method</td>
+            <td>Split-MNIST<br>Acc. (%)</td>
+            <td>Split-MNIST (Gen.)<br>bits/dim</td>
+            <td>MNIST-SVHN<br>Acc.(%)</td>
+            <td>Split-CIFAR10<br>Acc.(%)</td>
+            <td>Split-CIFAR100<br>Acc.(%)</td>
+        <tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>iid-offline</td>
+            <td>98.63</td>
+            <td>0.1806</td>
+            <td>96.69</td>
+            <td>93.17</td>
+            <td>73.80</td>
+        </tr>
+        <tr>
+            <td>iid-online</td>
+            <td>96.18</td>
+            <td>0.2156</td>
+            <td>95.24</td>
+            <td>62.79</td>
+            <td>20.46</td>
+        </tr>
+        <tr>
+            <td>Fine-tune</td>
+            <td>19.43</td>
+            <td>0.2817</td>
+            <td>83.35</td>
+            <td>18.08</td>
+            <td>2.43</td>
+        </tr>
+        <tr>
+            <td>Reservoir</td>
+            <td>85.69</td>
+            <td>0.2234</td>
+            <td>94.12</td>
+            <td>44.00</td>
+            <td>10.01</td>
+        </tr>
+        <tr>
+            <td>CN-DPM</td>
+            <td><b>93.23</b></td>
+            <td><b>0.2110</b></td>
+            <td><b>94.46</b></td>
+            <td><b>45.21</b></td>
+            <td><b>20.10</b></td>
+        </tr>
+    </tbody>
+</table>
+
+### Training Graphs
+#### Split-CIFAR10 (0.2 Epoch) 
+![Split-CIFAR10 (0.2 Epoch)](./images/cifar10_gss.svg)
+
+#### Split-CIFAR100
+![Split-CIFAR100](./images/cifar100.svg)
+
 ## System Requirements
 - Python >= 3.6.1
 - CUDA >= 9.0 supported GPU with at least 10GB memory
