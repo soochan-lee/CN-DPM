@@ -11,8 +11,6 @@ logs/
 log*
 log.txt
 data/
-pretrained_vae/
-!/pretrained_vae/ckpt-30.pt
 
 # C extensions
 *.o
@@ -123,9 +121,3 @@ venv.bak/
 
 # model inference results
 .out
-data
-
-# random configs
-configs/random
-
-final-summaries/

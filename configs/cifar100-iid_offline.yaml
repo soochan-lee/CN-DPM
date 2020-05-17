@@ -75,5 +75,4 @@ eval_g: False
 
 summary_step: 250
 eval_step: 250
-ckpt_step: 1000000000
 summarize_samples: false

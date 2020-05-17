@@ -89,8 +89,7 @@ $ pip install -r requirements.txt
 ## Usage
 ```bash
 $ python main.py --help
-usage: main.py [-h] [--config CONFIG] [--episode EPISODE] [--log-dir LOG_DIR]
-            [--resume-ckpt RESUME_CKPT] [--override OVERRIDE]
+usage: main.py [-h] [--config CONFIG] [--episode EPISODE] [--log-dir LOG_DIR] [--override OVERRIDE]
 
 optional arguments:
   -h, --help            show this help message and exit
@@ -104,7 +103,7 @@ optional arguments:
 ## Composing Continual Learning Episodes
 We provide a quick and easy solution to compose continual learning scenarios.
 You can configure a scenario by writing a YAML file.
-Here is an example of Split-CIFAR10 where each stage is repeated for 10 epochs: 
+Here is an example of Split-CIFAR10 where each stage is repeated for ten epochs: 
 ```yaml
 - subsets: [['cifar10', 0], ['cifar10', 1]]
   epochs: 10
@@ -127,7 +126,7 @@ The main logic is implemented in the `DataScheduler` in `data.py`.
 
 
 ## Reproducing Experiments
-Run below commands to reproduce our experimental results. You can check summaries from Tensorboard.
+Run the commands below to reproduce our experimental results. You can check the summaries on TensorBoard.
 
 ### 1. MNIST Generation
 #### iid Offline

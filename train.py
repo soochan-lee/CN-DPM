@@ -37,9 +37,6 @@ def _make_collage(samples, config, grid_h, grid_w):
 def train_model(config, model: NdpmModel,
                 scheduler: DataScheduler,
                 writer: SummaryWriter):
-    saved_model_path = os.path.join(config['log_dir'], 'ckpts')
-    os.makedirs(saved_model_path, exist_ok=True)
-
     for step, (x, y, t) in enumerate(scheduler):
         step += 1
         if isinstance(model, NdpmModel):
@@ -64,20 +61,6 @@ def train_model(config, model: NdpmModel,
         )
         if evaluatable and step % config['eval_step'] == 0:
             scheduler.eval(model, writer, step, 'model')
-
-        if step % config['ckpt_step'] == 0:
-            print('\nSaving checkpoint... ', end='')
-            ckpt_path = os.path.join(saved_model_path,
-                                     'ckpt-{}.pt'.format(str(step).zfill(6)))
-            del model.writer
-            if isinstance(model, NdpmModel):
-                del model.ndpm.writer
-            with open(ckpt_path, 'wb') as f:
-                pickle.dump(model, f)
-            model.writer = writer
-            if isinstance(model, NdpmModel):
-                model.ndpm.writer = writer
-            print('Saved to {}'.format(ckpt_path))
 
         # Evaluate experts of the model's DPMoE
         if summarize_experts:

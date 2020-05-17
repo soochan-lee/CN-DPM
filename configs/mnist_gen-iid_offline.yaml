@@ -72,6 +72,5 @@ eval_g: True
 
 summary_step: 250
 eval_step: 250
-ckpt_step: 1000000000
 summarize_samples: True
 sample_grid: [10, 10]
