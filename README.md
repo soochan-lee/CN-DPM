@@ -77,6 +77,11 @@ Official PyTorch implementation of ICLR 2020 paper: *A Neural Dirichlet Process 
 
 
 ## Installation
+1. Install PyTorch 1.0.1 and TorchVision 0.2.2 for your environment.
+Follow the instructions in 
+[HERE](https://pytorch.org/get-started/previous-versions/#v101).
+
+2. Install other required packages.
 ```bash
 $ pip install -r requirements.txt
 ```
